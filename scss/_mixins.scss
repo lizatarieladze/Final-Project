@@ -1,0 +1,15 @@
+@mixin line{
+    width: 71px;
+	height: 1px;
+	background-color: black;    
+    margin-top: 10px;
+	margin-right: 10px; 
+}
+
+@mixin cube{
+	width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    vertical-align: middle;
+    margin-right: 5px;
+}

@@ -1,0 +1,26 @@
+header{
+    margin: 20px 110px;
+    .hddiv{
+        display: flex;
+        justify-content: space-between;
+        h1{
+            font-size: 40px;
+            vertical-align: center;
+        }
+        nav{
+            vertical-align: center;
+            ul{
+                display: flex;
+                li{
+                    margin-right: 40px;
+                    a{
+                        color: grey;
+                        .active{
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

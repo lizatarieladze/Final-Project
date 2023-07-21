@@ -1,5 +1,7 @@
-.s-2{
-	margin-bottom: 50px;
+
+.s-3{
+	padding: 5px;
+	background-color: #EFF7F2;
 	.box1{
 		display: flex;
 		justify-content: space-between;
@@ -55,10 +57,10 @@
 				height: 51px;
 				border-radius: 10px;
 				color: white;
-			}
-			button:hover{
-				background-color: #377d3a;
-				cursor: pointer;
+				button:hover{
+					background-color: #377d3a;
+					cursor: pointer;
+				}
 			}
 		}
 	}

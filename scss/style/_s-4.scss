@@ -1,0 +1,48 @@
+.s-4{
+    max-width: 1380px;
+    width: 100%;
+    .box3{
+        display: flex;
+        margin-left: 40px;
+        margin-top: 96px;
+        .line{
+            @include line;
+        }
+        .aboutus{
+            max-width: 640px ;
+            width: 100%;
+            h3{
+                font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                margin-bottom: 32px;
+            }
+            p{
+                font-family: Roboto;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%; /* 57.6px */
+            }
+        }
+    }
+    .cardsbox{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-left: 100px;
+        margin-top: 65px;
+        
+        .card1{
+            position: relative;
+            .shvili{
+                position: absolute;
+                margin: 10px;
+            }
+        }
+    }
+}
