@@ -9,6 +9,10 @@ footer{
         font-size: 20px;
         color: white;
         vertical-align: top;
+        margin-top: 10px;
+        @media (max-width:1300px){
+            margin:40px 40px;
+        }
     }
     div{
         display: flex;
@@ -31,6 +35,9 @@ footer{
             line-height: 160%; /* 22.4px */
             color: grey;
             margin-bottom: 24px;
+        }
+        @media (max-width:1300px){
+            margin:40px 40px;
         }
     }
     .form{
@@ -63,5 +70,7 @@ footer{
             }
         }
     }
-    
+    @media (max-width:1300px){
+        padding: 20px;
+    }
 }

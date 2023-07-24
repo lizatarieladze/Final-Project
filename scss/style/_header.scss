@@ -9,6 +9,7 @@ header{
         }
         nav{
             vertical-align: center;
+            margin-top: 10px;
             ul{
                 display: flex;
                 li{
@@ -16,11 +17,43 @@ header{
                     a{
                         color: grey;
                         .active{
-                            color: black;
+                            color: red;
                         }
                     }
                 }
             }
         }
+        .dropdown{
+            .dropdown-menu{
+                padding: 20px;
+                background-color: #EFF7F2;
+                a{
+                    color: rgb(61, 61, 61);
+                }
+            }
+        }
+        @media (max-width:1110px){
+            nav{
+                display: none;
+            }
+        }
+        .fa-bars{
+            display: none;
+        }
+        .dropdown{
+            display: none;
+        }
+        @media (max-width:1110px){
+            .fa-bars{
+                display: inline-block;
+                margin-top: 20px;
+            }
+            .dropdown{
+                display: inline-block;
+            }
+        }
+    }
+    @media (max-width:1110px){
+        margin: 5px 5px;
     }
 }
