@@ -513,6 +513,7 @@ header .hddiv .dropdown {
 .s-4 {
   max-width: 1380px;
   width: 100%;
+  margin: 0 auto;
 }
 .s-4 .box3 {
   display: -webkit-box;
@@ -576,7 +577,6 @@ header .hddiv .dropdown {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-left: 100px;
   margin-top: 65px;
 }
 .s-4 .cardsbox .card1 {
@@ -584,13 +584,14 @@ header .hddiv .dropdown {
   max-width: 411px;
   width: 100%;
 }
-.s-4 .cardsbox .card1 .shvili {
+.s-4 .cardsbox .card1 p {
   position: absolute;
   margin: 10px;
 }
 .s-4 .cardsbox .card1 .tint {
-  max-width: 411px;
-  width: 100%;
+  width: 411px;
+  height: 421px;
+  border-radius: 15px;
 }
 @media (max-width: 1300px) {
   .s-4 .cardsbox .card1 {
@@ -1037,4 +1038,186 @@ footer .form form #submit {
 }
 .p-4 footer {
   margin-top: 0;
+}
+
+.s-1-4 {
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1120px;
+  width: 100%;
+  margin-left: 160px;
+  padding-top: 105.5px;
+}
+@media (max-width: 1300px) {
+  .s-1-4 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0;
+    padding: 25px;
+  }
+}
+.s-1-4 .box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 700px;
+  width: 100%;
+}
+.s-1-4 .box1 .line {
+  width: 71px;
+  height: 1px;
+  background-color: black;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.s-1-4 .box1 .aboutus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: 96px;
+  max-width: 608px;
+  width: 100%;
+}
+.s-1-4 .box1 .aboutus h3 {
+  color: black;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.s-1-4 .box1 .aboutus h4 {
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+}
+@media (max-width: 1200px) {
+  .s-1-4 .box1 .aboutus h4 {
+    font-size: 16px;
+  }
+}
+.s-1-4 .box1 .aboutus p {
+  color: var(--secondary-text, #525560);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+@media (max-width: 1200px) {
+  .s-1-4 .box1 .aboutus {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 1200px) {
+  .s-1-4 .box1 {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+.s-1-4 .form {
+  margin: 0 auto;
+}
+.s-1-4 .form img {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.s-2-2 {
+  background-color: #EFF7F2;
+  padding: 92px 100px;
+}
+.s-2-2 h1 {
+  color: var(--primary-text, #1D2130);
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+}
+.s-2-2 .advice {
+  margin: 70px auto;
+}
+.s-2-2 .advice .line3 {
+  height: 441px;
+  width: 1px;
+  background-color: #b6b9b7;
+  opacity: 50%;
+  margin-right: 24px;
+}
+.s-2-2 .advice nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+}
+.s-2-2 .advice nav .div1 {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+.s-2-2 .advice nav .div1 .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 48px;
+  max-width: 400px;
+  width: 100%;
+  -webkit-box-align: first baseline;
+      -ms-flex-align: first baseline;
+          align-items: first baseline;
+}
+.s-2-2 .advice nav .div1 .main i {
+  margin-right: 9px;
+  color: green;
+}
+.s-2-2 .advice nav .div1 .main div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.s-2-2 .advice nav .div1 .main div h1 {
+  color: var(--primary-text, #1D2130);
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.s-2-2 .advice nav .div1 .main div p {
+  color: var(--secondary-text, #525560);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
 }/*# sourceMappingURL=global.css.map */

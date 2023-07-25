@@ -1,6 +1,7 @@
 .s-4{
     max-width: 1380px;
     width: 100%;
+    margin: 0 auto;
     .box3{
         display: flex;
         margin-left: 40px;
@@ -47,19 +48,19 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        margin-left: 100px;
         margin-top: 65px;
         .card1{
             position: relative;
             max-width: 411px;
             width: 100%;
-            .shvili{
+            p{
                 position: absolute;
                 margin: 10px;
             }
             .tint{
-                max-width: 411px;
-                width: 100%;
+                width: 411px;
+                height: 421px;
+                border-radius: 15px;
             }
             @media (max-width:1300px){
                 margin: 0 auto;

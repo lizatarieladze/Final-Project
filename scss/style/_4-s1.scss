@@ -95,12 +95,7 @@
                 .div{
                     margin-bottom: 48px;
                     p{
-                        color: var(--secondary-text, #525560);
-                        font-family: Roboto;
-                        font-size: 16px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: 160%; /* 25.6px */
+                        @include paragraph;
                     }
                 }
                 .llogos{
