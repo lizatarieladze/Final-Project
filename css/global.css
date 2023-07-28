@@ -625,12 +625,20 @@ header .damatebiti .dropdown {
   padding: 142px 110px;
   margin-top: 96px;
   margin-bottom: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
-.s-5 div {
+.s-5 .text {
   max-width: 610px;
   width: 100%;
 }
-.s-5 div h2 {
+.s-5 .text h2 {
   color: #FFF;
   font-family: Roboto;
   font-size: 48px;
@@ -640,11 +648,11 @@ header .damatebiti .dropdown {
   margin-bottom: 16px;
 }
 @media (max-width: 700px) {
-  .s-5 div h2 {
+  .s-5 .text h2 {
     font-size: 25px;
   }
 }
-.s-5 div p {
+.s-5 .text p {
   color: #9c9898;
   font-family: Roboto;
   font-size: 16px;
@@ -653,7 +661,7 @@ header .damatebiti .dropdown {
   line-height: 160%; /* 25.6px */
   margin-bottom: 36px;
 }
-.s-5 nav {
+.s-5 .text nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -662,7 +670,7 @@ header .damatebiti .dropdown {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.s-5 nav ul {
+.s-5 .text nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -670,7 +678,7 @@ header .damatebiti .dropdown {
       -ms-flex-align: center;
           align-items: center;
 }
-.s-5 nav ul .cube {
+.s-5 .text nav ul .cube {
   background-color: #EFF7F2;
   width: 16px;
   height: 16px;
@@ -678,7 +686,7 @@ header .damatebiti .dropdown {
   vertical-align: middle;
   margin-right: 5px;
 }
-.s-5 nav ul .cube1 {
+.s-5 .text nav ul .cube1 {
   background-color: #70C174;
   width: 16px;
   height: 16px;
@@ -686,7 +694,7 @@ header .damatebiti .dropdown {
   vertical-align: middle;
   margin-right: 5px;
 }
-.s-5 nav ul li {
+.s-5 .text nav ul li {
   color: #FFF;
   font-family: Roboto;
   font-size: 16px;
@@ -694,6 +702,41 @@ header .damatebiti .dropdown {
   font-weight: 500;
   line-height: 160%; /* 25.6px */
   vertical-align: middle;
+}
+.s-5 .donut {
+  margin: 50px 50px;
+}
+.s-5 .donut .circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  background-color: black;
+  background: conic-gradient(#EFF7F2 0deg 96deg, #70C174 96deg 360deg);
+  width: 400px;
+  height: 400px;
+}
+.s-5 .donut .circle .hole {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background: #000;
+}
+@media (max-width: 1000px) {
+  .s-5 .donut .circle {
+    width: 200px;
+    height: 200px;
+  }
+  .s-5 .donut .circle .hole {
+    width: 100px;
+    height: 100px;
+  }
 }
 @media (max-width: 700px) {
   .s-5 {

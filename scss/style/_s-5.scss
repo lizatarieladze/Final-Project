@@ -3,7 +3,10 @@
     padding: 142px 110px;
     margin-top: 96px;
     margin-bottom: 65px;
-    div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .text{
         max-width: 610px;
         width: 100%;
         h2{
@@ -27,32 +30,65 @@
             line-height: 160%; /* 25.6px */
             margin-bottom: 36px;
         }
-    }
-    nav{
-        display: flex;
-        flex-direction: column;
-        ul{
+        nav{
             display: flex;
-            align-items: center;
-            .cube{
-                background-color: #EFF7F2;
-                @include cube;
-            }
-            .cube1{
-                background-color: #70C174;
-                @include cube;
-            }
-            li{
-                color: #FFF;
-                font-family: Roboto;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: 160%; /* 25.6px */
-                vertical-align: middle;
+            flex-direction: column;
+            ul{
+                display: flex;
+                align-items: center;
+                .cube{
+                    background-color: #EFF7F2;
+                    @include cube;
+                }
+                .cube1{
+                    background-color: #70C174;
+                    @include cube;
+                }
+                li{
+                    color: #FFF;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 160%; /* 25.6px */
+                    vertical-align: middle;
+                }
             }
         }
     }
+    .donut{
+        margin: 50px 50px;
+        .circle{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background-color: black;
+            background: conic-gradient(
+            #EFF7F2 0deg 96deg,
+            #70C174 96deg 360deg
+            );
+            width: 400px;
+            height: 400px;
+            .hole{
+                border-radius: 50%;
+                width: 200px;
+                height: 200px;
+                background: #000;
+            }
+        }
+        @media (max-width:1000px){
+            .circle{
+                width: 200px;
+                height: 200px;
+                .hole{
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+        }
+    }
+
     @media (max-width:700px){
         padding: 30px;
     }
