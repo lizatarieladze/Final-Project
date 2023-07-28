@@ -1218,7 +1218,7 @@ footer {
   font-weight: 700;
   line-height: 120%; /* 57.6px */
 }
-.s-2-2 nav {
+.s-2-2 .advice {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1229,10 +1229,10 @@ footer {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 40px auto;
-  max-width: 1470px;
+  max-width: 1580px;
   width: 100%;
 }
-.s-2-2 nav .div1 {
+.s-2-2 .advice .div1 {
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1244,23 +1244,23 @@ footer {
           justify-content: space-between;
   width: 100%;
 }
-.s-2-2 nav .div1 .main {
+.s-2-2 .advice .div1 .main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 48px;
   margin-right: 40px;
-  max-width: 400px;
+  max-width: 370px;
   width: 100%;
   -webkit-box-align: first baseline;
       -ms-flex-align: first baseline;
           align-items: first baseline;
 }
-.s-2-2 nav .div1 .main i {
+.s-2-2 .advice .div1 .main i {
   margin-right: 9px;
   color: green;
 }
-.s-2-2 nav .div1 .main div {
+.s-2-2 .advice .div1 .main div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1269,7 +1269,7 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.s-2-2 nav .div1 .main div h1 {
+.s-2-2 .advice .div1 .main div h1 {
   color: var(--primary-text, #1D2130);
   font-family: Roboto;
   font-size: 24px;
@@ -1278,7 +1278,7 @@ footer {
   line-height: normal;
   margin-bottom: 10px;
 }
-.s-2-2 nav .div1 .main div p {
+.s-2-2 .advice .div1 .main div p {
   color: var(--secondary-text, #525560);
   font-family: Roboto;
   font-size: 16px;
