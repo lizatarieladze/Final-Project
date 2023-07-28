@@ -1182,6 +1182,8 @@ footer {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 40px auto;
+  max-width: 1470px;
+  width: 100%;
 }
 .s-2-2 nav .div1 {
   margin: 0 auto;
