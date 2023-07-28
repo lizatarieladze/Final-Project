@@ -9,7 +9,6 @@ header{
         }
         nav{
             vertical-align: center;
-            margin-top: 10px;
             ul{
                 display: flex;
                 li{
@@ -17,7 +16,7 @@ header{
                     a{
                         color: grey;
                         .active{
-                            color: red;
+                            color: black;
                         }
                     }
                 }
@@ -29,6 +28,7 @@ header{
                 background-color: #EFF7F2;
                 a{
                     color: rgb(61, 61, 61);
+                    
                 }
             }
         }
