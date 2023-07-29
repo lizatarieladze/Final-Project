@@ -88,8 +88,8 @@ header .damatebiti nav ul li {
 header .damatebiti nav ul li a {
   color: grey;
 }
-header .damatebiti nav ul li a .active {
-  color: black;
+header .damatebiti nav ul li .active {
+  color: #0B0706;
 }
 header .damatebiti .dropdown .dropdown-menu {
   padding: 20px;
@@ -126,12 +126,13 @@ header .damatebiti .dropdown {
     padding: 10px;
   }
   header .damatebiti h1 {
-    font-size: 40px;
+    font-size: 29px;
+    margin-top: 16px;
   }
 }
 
 .s-1 {
-  background-image: url("../../imgs/BGImage.png");
+  background-image: url("../../imgs/foto.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 625px;
@@ -606,10 +607,6 @@ header .damatebiti .dropdown {
 }
 @media (max-width: 1300px) {
   .s-4 .cardsbox {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     text-align: center;
     margin: 0 auto;
   }
@@ -1181,6 +1178,10 @@ footer {
   .s-1-4 .box1 .aboutus {
     margin-bottom: 40px;
     margin-right: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 @media (max-width: 1200px) {
@@ -1188,14 +1189,18 @@ footer {
     margin: 0 auto;
     width: 100%;
   }
+  .s-1-4 .box1 .line {
+    display: none;
+  }
 }
 .s-1-4 .form {
   margin: 0 auto;
 }
 .s-1-4 .form img {
   max-width: 400px;
+  border-radius: 30px;
   width: 100%;
-  margin: 0 auto;
+  margin: 27px auto;
 }
 @media (max-width: 800px) {
   .s-1-4 {
@@ -1292,5 +1297,509 @@ footer {
   }
   .s-2-2 h1 {
     font-size: 29px;
+  }
+}
+
+.s-3-2 {
+  margin-bottom: 100px;
+  padding: 20px;
+  background-color: #EFF7F2;
+}
+.s-3-2 h1 {
+  color: var(--primary-text, #1D2130);
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+  margin: 50px auto;
+  max-width: 700px;
+  width: 100%;
+}
+@media (max-width: 600px) {
+  .s-3-2 h1 {
+    font-size: 30px;
+  }
+}
+.s-3-2 .baratebi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+}
+.s-3-2 .baratebi h1 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 42px */
+  background-color: rgba(0, 0, 0, 0.1450980392);
+}
+.s-3-2 .baratebi p {
+  color: var(--secondary-text, #fff);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  background-color: rgba(0, 0, 0, 0.1450980392);
+}
+.s-3-2 .baratebi button {
+  background-color: #fff;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  /* padding: 16px 32px; */
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* gap: 10px; */
+  border: none;
+  width: 146px;
+  height: 51px;
+  border-radius: 10px;
+}
+.s-3-2 .baratebi button a {
+  color: var(--primary-text, #1D2130);
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.s-3-2 .baratebi button:hover {
+  background-color: rgb(188, 241, 188);
+  cursor: pointer;
+}
+.s-3-2 .baratebi .barati1 {
+  background-image: url("../../imgs/detective.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 96%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 400px;
+  width: 100%;
+  height: 450px;
+  border-radius: 20px;
+  padding: 80px 48px;
+  margin: 20px 20px;
+}
+@media (max-width: 500px) {
+  .s-3-2 .baratebi .barati1 {
+    padding: 17px;
+    height: 336px;
+  }
+}
+.s-3-2 .baratebi .barati2 {
+  background-image: url("../../imgs/comedy.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 96%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 400px;
+  width: 100%;
+  height: 450px;
+  border-radius: 20px;
+  padding: 80px 48px;
+  margin: 20px 20px;
+}
+@media (max-width: 500px) {
+  .s-3-2 .baratebi .barati2 {
+    padding: 17px;
+    height: 336px;
+  }
+}
+.s-3-2 .baratebi .barati3 {
+  background-image: url("../../imgs/romantic.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 96%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 400px;
+  width: 100%;
+  height: 450px;
+  border-radius: 20px;
+  padding: 80px 48px;
+  margin: 20px 20px;
+}
+@media (max-width: 500px) {
+  .s-3-2 .baratebi .barati3 {
+    padding: 17px;
+    height: 336px;
+  }
+}
+.s-3-2 .baratebi .barati4 {
+  background-image: url("../../imgs/horror.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 96%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 400px;
+  width: 100%;
+  height: 450px;
+  border-radius: 20px;
+  padding: 80px 48px;
+  margin: 20px 20px;
+}
+@media (max-width: 500px) {
+  .s-3-2 .baratebi .barati4 {
+    padding: 17px;
+    height: 336px;
+  }
+}
+.s-3-2 .baratebi .barati5 {
+  background-image: url("../../imgs/thriller.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 96%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 400px;
+  width: 100%;
+  height: 450px;
+  border-radius: 20px;
+  padding: 80px 48px;
+  margin: 20px 20px;
+}
+@media (max-width: 500px) {
+  .s-3-2 .baratebi .barati5 {
+    padding: 17px;
+    height: 336px;
+  }
+}
+.s-3-2 .baratebi .barati6 {
+  background-image: url("../../imgs/adventure.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 96%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 400px;
+  width: 100%;
+  height: 450px;
+  border-radius: 20px;
+  padding: 80px 48px;
+  margin: 20px 20px;
+}
+@media (max-width: 500px) {
+  .s-3-2 .baratebi .barati6 {
+    padding: 17px;
+    height: 336px;
+  }
+}
+@media (max-width: 500px) {
+  .s-3-2 .baratebi h1 {
+    font-size: 20px;
+    vertical-align: top;
+  }
+}
+
+.s-3-3 {
+  margin-bottom: 100px;
+  padding: 20px;
+  background-color: #EFF7F2;
+}
+.s-3-3 h1 {
+  color: var(--primary-text, #1D2130);
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+  margin: 50px auto;
+  max-width: 700px;
+  width: 100%;
+}
+@media (max-width: 600px) {
+  .s-3-3 h1 {
+    font-size: 30px;
+  }
+}
+.s-3-3 .baratebi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+}
+.s-3-3 .baratebi h1 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 42px */
+  background-color: rgba(0, 0, 0, 0.1450980392);
+}
+.s-3-3 .baratebi p {
+  color: var(--secondary-text, #fff);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  background-color: rgba(0, 0, 0, 0.1450980392);
+}
+.s-3-3 .baratebi button {
+  background-color: #fff;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  /* padding: 16px 32px; */
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* gap: 10px; */
+  border: none;
+  width: 146px;
+  height: 51px;
+  border-radius: 10px;
+}
+.s-3-3 .baratebi button a {
+  color: var(--primary-text, #1D2130);
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.s-3-3 .baratebi button:hover {
+  background-color: rgb(188, 241, 188);
+  cursor: pointer;
+}
+.s-3-3 .baratebi .barati1 {
+  background-image: url("../../imgs/detectivet.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 96%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 400px;
+  width: 100%;
+  height: 450px;
+  border-radius: 20px;
+  padding: 80px 48px;
+  margin: 20px 20px;
+}
+@media (max-width: 500px) {
+  .s-3-3 .baratebi .barati1 {
+    padding: 17px;
+    height: 336px;
+  }
+}
+.s-3-3 .baratebi .barati2 {
+  background-image: url("../../imgs/comedyt.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 96%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 400px;
+  width: 100%;
+  height: 450px;
+  border-radius: 20px;
+  padding: 80px 48px;
+  margin: 20px 20px;
+}
+@media (max-width: 500px) {
+  .s-3-3 .baratebi .barati2 {
+    padding: 17px;
+    height: 336px;
+  }
+}
+.s-3-3 .baratebi .barati3 {
+  background-image: url("../../imgs/romancet.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 96%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 400px;
+  width: 100%;
+  height: 450px;
+  border-radius: 20px;
+  padding: 80px 48px;
+  margin: 20px 20px;
+}
+@media (max-width: 500px) {
+  .s-3-3 .baratebi .barati3 {
+    padding: 17px;
+    height: 336px;
+  }
+}
+.s-3-3 .baratebi .barati4 {
+  background-image: url("../../imgs/horrort.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 96%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 400px;
+  width: 100%;
+  height: 450px;
+  border-radius: 20px;
+  padding: 80px 48px;
+  margin: 20px 20px;
+}
+@media (max-width: 500px) {
+  .s-3-3 .baratebi .barati4 {
+    padding: 17px;
+    height: 336px;
+  }
+}
+.s-3-3 .baratebi .barati5 {
+  background-image: url("../../imgs/thrillert.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 96%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 400px;
+  width: 100%;
+  height: 450px;
+  border-radius: 20px;
+  padding: 80px 48px;
+  margin: 20px 20px;
+}
+@media (max-width: 500px) {
+  .s-3-3 .baratebi .barati5 {
+    padding: 17px;
+    height: 336px;
+  }
+}
+.s-3-3 .baratebi .barati6 {
+  background-image: url("../../imgs/adventuret.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 96%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 400px;
+  width: 100%;
+  height: 450px;
+  border-radius: 20px;
+  padding: 80px 48px;
+  margin: 20px 20px;
+}
+@media (max-width: 500px) {
+  .s-3-3 .baratebi .barati6 {
+    padding: 17px;
+    height: 336px;
+  }
+}
+@media (max-width: 500px) {
+  .s-3-3 .baratebi h1 {
+    font-size: 20px;
+    vertical-align: top;
   }
 }/*# sourceMappingURL=global.css.map */

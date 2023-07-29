@@ -15,9 +15,9 @@ header{
                         margin-right: 40px;
                         a{
                             color: grey;
-                            .active{
-                                color: black;
-                            }
+                        }
+                        .active{
+                            color: #0B0706;
                         }
                     }
                 }
@@ -58,7 +58,8 @@ header{
         .damatebiti{
             padding: 10px;
             h1{
-                font-size: 40px;
+                font-size: 29px;
+                margin-top: 16px;
             }
         }
     }

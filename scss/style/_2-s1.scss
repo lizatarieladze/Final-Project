@@ -55,11 +55,16 @@
             @media(max-width: 1200px){
                 margin-bottom: 40px;
                 margin-right: 0px;
+                flex-direction: column;
+
             }
         }
         @media(max-width: 1200px){
             margin: 0 auto;
             width: 100%;
+            .line{
+                display: none;
+            }
             
         }
     }
@@ -67,8 +72,9 @@
         margin: 0 auto;
         img{
             max-width: 400px;
+            border-radius: 30px;
             width: 100%;
-            margin: 0 auto;
+            margin: 27px auto;
         }
     }
     @media(max-width: 800px){
@@ -82,12 +88,7 @@
     background-color: $lightgreen;
     padding: 92px 100px;
     h1{
-        color: var(--primary-text, #1D2130);
-        font-family: Roboto;
-        font-size: 48px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 120%; /* 57.6px */
+        @include h1;
     }
     .advice{
         display: flex;
