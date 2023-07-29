@@ -66,23 +66,23 @@
             @include barati;
         }
         .barati2{
-            background-image: url("../../imgs/comedy.jpeg");
+            background-image: url("../imgs/comedy.jpeg");
             @include barati;
         }
         .barati3{
-            background-image: url("../../imgs/romantic.jpeg");
+            background-image: url("../imgs/romantic.jpeg");
             @include barati;
         }
         .barati4{
-            background-image: url("../../imgs/horror.jpeg");
+            background-image: url("../imgs/horror.jpeg");
             @include barati;
         }
         .barati5{
-            background-image: url("../../imgs/thriller.jpeg");
+            background-image: url("../imgs/thriller.jpeg");
             @include barati;
         }
         .barati6{
-            background-image: url("../../imgs/adventure.jpeg");
+            background-image: url("../imgs/adventure.jpeg");
             @include barati;
         }
         @media(max-width: 500px){
@@ -157,27 +157,27 @@
             cursor: pointer;
         }
         .barati1{
-            background-image: url("../../imgs/detectivet.jpeg");
+            background-image: url("../imgs/detectivet.jpeg");
             @include barati;
         }
         .barati2{
-            background-image: url("../../imgs/comedyt.jpeg");
+            background-image: url("../imgs/comedyt.jpeg");
             @include barati;
         }
         .barati3{
-            background-image: url("../../imgs/romancet.jpeg");
+            background-image: url("../imgs/romancet.jpeg");
             @include barati;
         }
         .barati4{
-            background-image: url("../../imgs/horrort.jpeg");
+            background-image: url("../imgs/horrort.jpeg");
             @include barati;
         }
         .barati5{
-            background-image: url("../../imgs/thrillert.png");
+            background-image: url("../imgs/thrillert.png");
             @include barati;
         }
         .barati6{
-            background-image: url("../../imgs/adventuret.jpeg");
+            background-image: url("../imgs/adventuret.jpeg");
             @include barati;
         }
         @media(max-width: 500px){
