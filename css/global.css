@@ -91,6 +91,9 @@ header .damatebiti nav ul li a {
 header .damatebiti nav ul li .active {
   color: #0B0706;
 }
+header .damatebiti nav ul li a:hover {
+  color: rgb(1, 56, 1);
+}
 header .damatebiti .dropdown .dropdown-menu {
   padding: 20px;
   background-color: #EFF7F2;
