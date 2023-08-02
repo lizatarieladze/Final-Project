@@ -261,6 +261,7 @@
             background-image: url("../imgs/adventuret.jpeg");
             @include barati;
         }
+        
         @media(max-width: 913px){
             h1{
                 font-size: 30px;

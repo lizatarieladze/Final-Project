@@ -3,8 +3,10 @@ header{
             display: flex;
             justify-content: space-between;
             padding: 40px 120px;
+            width: 100%;
             .tbc{
                 max-width: 180px;
+                width: 100%;
                 vertical-align: center;
             }
             nav{
@@ -26,6 +28,11 @@ header{
                 }
             }
             .dropdown{
+                padding-right: 2px;
+                .btn{
+                    border: none;
+                    color: rgb(4, 52, 4);
+                }
                 .dropdown-menu{
                     padding: 20px;
                     background-color: #EFF7F2;

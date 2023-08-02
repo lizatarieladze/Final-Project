@@ -69,9 +69,11 @@ header .damatebiti {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 40px 120px;
+  width: 100%;
 }
 header .damatebiti .tbc {
   max-width: 180px;
+  width: 100%;
   vertical-align: center;
 }
 header .damatebiti nav {
@@ -93,6 +95,13 @@ header .damatebiti nav ul li .active {
 }
 header .damatebiti nav ul li a:hover {
   color: rgb(1, 56, 1);
+}
+header .damatebiti .dropdown {
+  padding-right: 2px;
+}
+header .damatebiti .dropdown .btn {
+  border: none;
+  color: rgb(4, 52, 4);
 }
 header .damatebiti .dropdown .dropdown-menu {
   padding: 20px;
