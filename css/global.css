@@ -70,8 +70,8 @@ header .damatebiti {
           justify-content: space-between;
   padding: 40px 120px;
 }
-header .damatebiti h1 {
-  font-size: 40px;
+header .damatebiti .tbc {
+  max-width: 180px;
   vertical-align: center;
 }
 header .damatebiti nav {
@@ -101,11 +101,6 @@ header .damatebiti .dropdown .dropdown-menu {
 header .damatebiti .dropdown .dropdown-menu a {
   color: rgb(61, 61, 61);
 }
-@media (max-width: 1110px) {
-  header .damatebiti nav {
-    display: none;
-  }
-}
 header .damatebiti .fa-bars {
   display: none;
 }
@@ -113,12 +108,20 @@ header .damatebiti .dropdown {
   display: none;
 }
 @media (max-width: 1110px) {
+  header .damatebiti nav {
+    display: none;
+  }
   header .damatebiti .fa-bars {
     display: inline-block;
     margin-top: 20px;
   }
   header .damatebiti .dropdown {
     display: inline-block;
+  }
+}
+@media (max-width: 480px) {
+  header .damatebiti .tbc {
+    width: 130px;
   }
 }
 @media (max-width: 1100px) {
@@ -247,9 +250,22 @@ header .damatebiti .dropdown {
   background-color: #377d3a;
   cursor: pointer;
 }
-.s-2 .box1 .image {
-  width: 480px;
-  height: 440px;
+.s-2 .box1 .img {
+  max-width: 500px;
+  width: 100%;
+}
+.s-2 .box1 .img .s-2img {
+  width: 88%;
+  -webkit-transition: width 1s, -webkit-transform 1s;
+  transition: width 1s, -webkit-transform 1s;
+  transition: width 1s, transform 1s;
+  transition: width 1s, transform 1s, -webkit-transform 1s;
+}
+.s-2 .box1 .img .s-2img:hover {
+  width: 93%;
+  -webkit-transform: 88%;
+      -ms-transform: 88%;
+          transform: 88%;
 }
 @media (max-width: 1450px) {
   .s-2 .box1 {
@@ -278,10 +294,13 @@ header .damatebiti .dropdown {
   .s-2 .box1 .aboutus a {
     margin: 0 auto;
   }
-  .s-2 .box1 img {
+  .s-2 .box1 .img {
     max-width: 600px;
-    width: 80%;
+    width: 100%;
     margin: 20px auto;
+  }
+  .s-2 .box1 .img .s-2img {
+    width: 100%;
   }
 }
 .s-2 .box2 {
@@ -328,8 +347,20 @@ header .damatebiti .dropdown {
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  height: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.s-2 .box2 .div2 ul a {
+  width: 70px;
 }
 .s-2 .box2 .div2 ul .logo {
+  height: 20px;
+  width: 50px;
+  vertical-align: middle;
+}
+.s-2 .box2 .div2 ul .logo0 {
   height: 20px;
   width: 50px;
   vertical-align: middle;
@@ -703,10 +734,7 @@ header .damatebiti .dropdown {
   line-height: 160%; /* 25.6px */
   vertical-align: middle;
 }
-.s-5 .donut {
-  margin: 50px 50px;
-}
-.s-5 .donut .circle {
+.s-5 .circle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -721,21 +749,27 @@ header .damatebiti .dropdown {
   background: conic-gradient(#EFF7F2 0deg 96deg, #70C174 96deg 360deg);
   width: 400px;
   height: 400px;
+  margin-top: 50px;
 }
-.s-5 .donut .circle .hole {
+.s-5 .circle .hole {
   border-radius: 50%;
   width: 200px;
   height: 200px;
   background: #000;
 }
 @media (max-width: 1000px) {
-  .s-5 .donut .circle {
+  .s-5 .circle {
     width: 200px;
     height: 200px;
   }
-  .s-5 .donut .circle .hole {
+  .s-5 .circle .hole {
     width: 100px;
     height: 100px;
+  }
+}
+@media (max-width: 400px) {
+  .s-5 .circle {
+    margin: 50px auto;
   }
 }
 @media (max-width: 700px) {
@@ -1303,6 +1337,96 @@ footer {
   }
 }
 
+.box3-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 900px;
+  width: 100%;
+}
+.box3-1 .line3-1 {
+  width: 71px;
+  height: 1px;
+  background-color: black;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+@media (max-width: 1313px) {
+  .box3-1 .line3-1 {
+    display: none;
+  }
+}
+.box3-1 .aboutus3-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: 96px;
+  max-width: 608px;
+  width: 100%;
+}
+.box3-1 .aboutus3-1 h3 {
+  color: black;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.box3-1 .aboutus3-1 h4 {
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+}
+@media (max-width: 1200px) {
+  .box3-1 .aboutus3-1 h4 {
+    font-size: 16px;
+  }
+}
+.box3-1 .aboutus3-1 p {
+  color: var(--secondary-text, #525560);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+@media (max-width: 1200px) {
+  .box3-1 .aboutus3-1 {
+    margin-bottom: 40px;
+    margin-right: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media (max-width: 1313px) {
+  .box3-1 {
+    margin: 0 auto;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.form3-1 {
+  margin: 0 auto;
+}
+.form3-1 img {
+  max-width: 400px;
+  border-radius: 30px;
+  width: 100%;
+  margin: 27px auto;
+}
+
 .s-3-2 {
   margin-bottom: 100px;
   padding: 20px;
@@ -1548,6 +1672,13 @@ footer {
     height: 336px;
   }
 }
+@media (max-width: 913px) {
+  .s-3-2 .baratebi {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 @media (max-width: 500px) {
   .s-3-2 .baratebi h1 {
     font-size: 20px;
@@ -1570,9 +1701,17 @@ footer {
   margin: 50px auto;
   max-width: 700px;
   width: 100%;
+  margin-bottom: 40px;
 }
-@media (max-width: 600px) {
+@media (max-width: 913px) {
   .s-3-3 h1 {
+    margin: 50px auto;
+    font-size: 50px;
+  }
+}
+@media (max-width: 513px) {
+  .s-3-3 h1 {
+    margin: 40px auto;
     font-size: 30px;
   }
 }
@@ -1590,13 +1729,18 @@ footer {
   margin: 0 auto;
 }
 .s-3-3 .baratebi h1 {
-  color: #FFF;
+  color: #ffffff;
   font-family: Roboto;
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
   line-height: 150%; /* 42px */
   background-color: rgba(0, 0, 0, 0.1450980392);
+}
+@media (max-width: 913px) {
+  .s-3-3 .baratebi h1 {
+    margin: 0 auto;
+  }
 }
 .s-3-3 .baratebi p {
   color: var(--secondary-text, #fff);
@@ -1800,9 +1944,16 @@ footer {
     height: 336px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 913px) {
   .s-3-3 .baratebi h1 {
-    font-size: 20px;
+    font-size: 30px;
     vertical-align: top;
+  }
+}
+@media (max-width: 913px) {
+  .s-3-3 .baratebi {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }/*# sourceMappingURL=global.css.map */

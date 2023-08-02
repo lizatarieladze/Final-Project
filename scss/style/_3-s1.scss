@@ -1,3 +1,72 @@
+.box3-1{
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    .line3-1{
+        width: 71px;
+        height: 1px;
+        background-color: black;
+        margin-top: 10px;
+        margin-right: 20px;
+        @media(max-width:1313px){
+            display: none;
+        }
+    }
+    .aboutus3-1{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 96px;
+        max-width: 608px;
+        width: 100%;
+        h3{
+            color: black;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        h4{
+            font-family: Roboto;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%; /* 57.6px */
+            @media(max-width: 1200px){
+                font-size:16px;
+            }
+        }
+        p{
+            @include paragraph;
+        }
+        @media(max-width: 1200px){
+            margin-bottom: 40px;
+            margin-right: 0px;
+            flex-direction: column;
+
+        }
+    }
+    @media(max-width: 1313px){
+        margin: 0 auto;
+        width: 100%;      
+        justify-content: center;
+    }
+}
+.form3-1{
+    margin: 0 auto;
+    img{
+        max-width: 400px;
+        border-radius: 30px;
+        width: 100%;
+        margin: 27px auto;
+    }
+}
+
+
+
 .s-3-2{
     margin-bottom: 100px;
     padding:20px;
@@ -85,6 +154,9 @@
             background-image: url("../imgs/adventure.jpeg");
             @include barati;
         }
+        @media(max-width: 913px){
+            justify-content: center;
+        }
         @media(max-width: 500px){
             h1{
                 font-size: 20px;
@@ -102,7 +174,13 @@
         margin: 50px auto;
         max-width: 700px;
         width: 100%;
-        @media (max-width:600px){
+        margin-bottom: 40px;
+        @media (max-width:913px){
+            margin: 50px auto;
+            font-size: 50px;
+        }
+        @media (max-width:513px){
+            margin: 40px auto;
             font-size: 30px;
         }
     }
@@ -114,13 +192,16 @@
         width: 100%;
         margin: 0 auto;
         h1{
-            color: #FFF;
+            color: #ffffff;
             font-family: Roboto;
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 150%; /* 42px */
             background-color: #00000025;
+            @media(max-width: 913px){
+                margin: 0 auto;
+            }
         }
         p{
             color: var(--secondary-text, #fff);
@@ -180,11 +261,15 @@
             background-image: url("../imgs/adventuret.jpeg");
             @include barati;
         }
-        @media(max-width: 500px){
+        @media(max-width: 913px){
             h1{
-                font-size: 20px;
+                font-size: 30px;
                 vertical-align: top;
             }
         }
+        @media(max-width: 913px){
+            justify-content: center;
+        }
     }
+    
 }

@@ -3,8 +3,8 @@ header{
             display: flex;
             justify-content: space-between;
             padding: 40px 120px;
-            h1{
-                font-size: 40px;
+            .tbc{
+                max-width: 180px;
                 vertical-align: center;
             }
             nav{
@@ -35,11 +35,6 @@ header{
                     }
                 }
             }
-            @media (max-width:1110px){
-                nav{
-                    display: none;
-                }
-            }
             .fa-bars{
                 display: none;
             }
@@ -47,12 +42,20 @@ header{
                 display: none;
             }
             @media (max-width:1110px){
+                nav{
+                    display: none;
+                }
                 .fa-bars{
                     display: inline-block;
                     margin-top: 20px;
                 }
                 .dropdown{
                     display: inline-block;
+                }
+            }
+            @media (max-width:480px){
+                .tbc{
+                    width: 130px;
                 }
             }
         } 

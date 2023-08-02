@@ -52,10 +52,6 @@
                 p{
                     @include paragraph;
                 }
-                @media(max-width: 1200px){
-                    
-                }
-
             }
             @media(max-width: 1200px){
                 width: 50%;

@@ -56,3 +56,9 @@
 		height: 336px;
 	}
 }
+
+@mixin logo{
+	height: 20px;
+	width: 50px;
+	vertical-align: middle;
+}
