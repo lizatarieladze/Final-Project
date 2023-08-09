@@ -61,86 +61,93 @@ a {
           box-sizing: border-box;
 }
 
-header .damatebiti {
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+  height: 100px;
+}
+.sticky .hddiv .damatebiti {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 40px 120px;
+  padding: 17px 70px;
   width: 100%;
 }
-header .damatebiti .tbc {
+.sticky .hddiv .damatebiti .tbc {
   max-width: 180px;
   width: 100%;
-  vertical-align: center;
 }
-header .damatebiti nav {
+.sticky .hddiv .damatebiti nav {
   vertical-align: center;
+  margin-top: 20px;
 }
-header .damatebiti nav ul {
+.sticky .hddiv .damatebiti nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-header .damatebiti nav ul li {
+.sticky .hddiv .damatebiti nav ul li {
   margin-right: 40px;
 }
-header .damatebiti nav ul li a {
+.sticky .hddiv .damatebiti nav ul li a {
   color: grey;
 }
-header .damatebiti nav ul li .active {
+.sticky .hddiv .damatebiti nav ul li .active {
   color: #0B0706;
 }
-header .damatebiti nav ul li a:hover {
+.sticky .hddiv .damatebiti nav ul li a:hover {
   color: rgb(1, 56, 1);
 }
-header .damatebiti .dropdown {
+.sticky .hddiv .damatebiti .dropdown {
   padding-right: 2px;
 }
-header .damatebiti .dropdown .btn {
+.sticky .hddiv .damatebiti .dropdown .btn {
   border: none;
   color: rgb(4, 52, 4);
 }
-header .damatebiti .dropdown .dropdown-menu {
+.sticky .hddiv .damatebiti .dropdown .dropdown-menu {
   padding: 20px;
   background-color: #EFF7F2;
 }
-header .damatebiti .dropdown .dropdown-menu a {
+.sticky .hddiv .damatebiti .dropdown .dropdown-menu a {
   color: rgb(61, 61, 61);
 }
-header .damatebiti .fa-bars {
+.sticky .hddiv .damatebiti .fa-bars {
   display: none;
 }
-header .damatebiti .dropdown {
+.sticky .hddiv .damatebiti .dropdown {
   display: none;
 }
 @media (max-width: 1110px) {
-  header .damatebiti nav {
+  .sticky .hddiv .damatebiti nav {
     display: none;
   }
-  header .damatebiti .fa-bars {
+  .sticky .hddiv .damatebiti .fa-bars {
     display: inline-block;
     margin-top: 20px;
   }
-  header .damatebiti .dropdown {
+  .sticky .hddiv .damatebiti .dropdown {
     display: inline-block;
   }
 }
 @media (max-width: 480px) {
-  header .damatebiti .tbc {
+  .sticky .hddiv .damatebiti .tbc {
     width: 130px;
   }
 }
 @media (max-width: 1100px) {
-  header {
+  .sticky {
     margin: 5px 5px;
   }
-  header .damatebiti {
+  .sticky .damatebiti {
     padding: 10px;
   }
-  header .damatebiti h1 {
+  .sticky .damatebiti h1 {
     font-size: 29px;
     margin-top: 16px;
   }
