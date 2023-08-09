@@ -1617,20 +1617,8 @@ footer {
   margin: 20px 20px;
   -webkit-transition: all transform 0.2s;
   transition: all transform 0.2s;
-  -webkit-transition: -webkit-transform 0.2s;
-  transition: -webkit-transform 0.2s;
-  transition: transform 0.2s;
-  transition: transform 0.2s, -webkit-transform 0.2s; /* Animation */
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
 }
-.s-3-2 .baratebi .zoom:hover {
-  -webkit-transform: scale(1.5);
-      -ms-transform: scale(1.5);
-          transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-.s-3-2 .barati2 {
+.s-3-2 .baratebi .barati2 {
   background-image: url("../imgs/comedy.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1653,7 +1641,7 @@ footer {
   -webkit-transition: all transform 0.2s;
   transition: all transform 0.2s;
 }
-.s-3-2 .barati3 {
+.s-3-2 .baratebi .barati3 {
   background-image: url("../imgs/romantic.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1676,7 +1664,7 @@ footer {
   -webkit-transition: all transform 0.2s;
   transition: all transform 0.2s;
 }
-.s-3-2 .barati4 {
+.s-3-2 .baratebi .barati4 {
   background-image: url("../imgs/horror.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1699,7 +1687,7 @@ footer {
   -webkit-transition: all transform 0.2s;
   transition: all transform 0.2s;
 }
-.s-3-2 .barati5 {
+.s-3-2 .baratebi .barati5 {
   background-image: url("../imgs/thriller.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1722,7 +1710,7 @@ footer {
   -webkit-transition: all transform 0.2s;
   transition: all transform 0.2s;
 }
-.s-3-2 .barati6 {
+.s-3-2 .baratebi .barati6 {
   background-image: url("../imgs/adventure.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1746,14 +1734,14 @@ footer {
   transition: all transform 0.2s;
 }
 @media (max-width: 913px) {
-  .s-3-2 {
+  .s-3-2 .baratebi {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
 }
 @media (max-width: 500px) {
-  .s-3-2 h1 {
+  .s-3-2 .baratebi h1 {
     font-size: 20px;
     vertical-align: top;
   }
