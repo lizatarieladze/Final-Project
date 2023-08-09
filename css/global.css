@@ -62,9 +62,39 @@ a {
 }
 
 .barati1:hover {
-  -webkit-transform: scale(1.5);
-      -ms-transform: scale(1.5);
-          transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.barati2:hover {
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.barati3:hover {
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.barati4:hover {
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.barati5:hover {
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.barati6:hover {
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .sticky {
@@ -286,10 +316,10 @@ a {
 }
 .s-2 .box1 .img .s-2img {
   width: 88%;
-  -webkit-transition: width 1s, -webkit-transform 1s;
-  transition: width 1s, -webkit-transform 1s;
-  transition: width 1s, transform 1s;
-  transition: width 1s, transform 1s, -webkit-transform 1s;
+  -webkit-transition: width 2s, -webkit-transform 1s;
+  transition: width 2s, -webkit-transform 1s;
+  transition: width 2s, transform 1s;
+  transition: width 2s, transform 1s, -webkit-transform 1s;
 }
 .s-2 .box1 .img .s-2img:hover {
   width: 93%;
@@ -667,7 +697,7 @@ a {
 }
 @media (max-width: 1300px) {
   .s-4 .cardsbox .card1 {
-    margin: 0 auto;
+    margin: 20px auto;
   }
 }
 @media (max-width: 1300px) {
@@ -1619,8 +1649,8 @@ footer {
   border-radius: 20px;
   padding: 80px 48px;
   margin: 20px 20px;
-  -webkit-transition: all transform 0.2s;
-  transition: all transform 0.2s;
+  -webkit-transition: all transform 2s;
+  transition: all transform 2s;
 }
 .s-3-2 .baratebi .barati2 {
   background-image: url("../imgs/comedy.jpeg");
@@ -1642,8 +1672,8 @@ footer {
   border-radius: 20px;
   padding: 80px 48px;
   margin: 20px 20px;
-  -webkit-transition: all transform 0.2s;
-  transition: all transform 0.2s;
+  -webkit-transition: all transform 2s;
+  transition: all transform 2s;
 }
 .s-3-2 .baratebi .barati3 {
   background-image: url("../imgs/romantic.jpeg");
@@ -1665,8 +1695,8 @@ footer {
   border-radius: 20px;
   padding: 80px 48px;
   margin: 20px 20px;
-  -webkit-transition: all transform 0.2s;
-  transition: all transform 0.2s;
+  -webkit-transition: all transform 2s;
+  transition: all transform 2s;
 }
 .s-3-2 .baratebi .barati4 {
   background-image: url("../imgs/horror.jpeg");
@@ -1688,8 +1718,8 @@ footer {
   border-radius: 20px;
   padding: 80px 48px;
   margin: 20px 20px;
-  -webkit-transition: all transform 0.2s;
-  transition: all transform 0.2s;
+  -webkit-transition: all transform 2s;
+  transition: all transform 2s;
 }
 .s-3-2 .baratebi .barati5 {
   background-image: url("../imgs/thriller.jpeg");
@@ -1711,8 +1741,8 @@ footer {
   border-radius: 20px;
   padding: 80px 48px;
   margin: 20px 20px;
-  -webkit-transition: all transform 0.2s;
-  transition: all transform 0.2s;
+  -webkit-transition: all transform 2s;
+  transition: all transform 2s;
 }
 .s-3-2 .baratebi .barati6 {
   background-image: url("../imgs/adventure.jpeg");
@@ -1734,8 +1764,8 @@ footer {
   border-radius: 20px;
   padding: 80px 48px;
   margin: 20px 20px;
-  -webkit-transition: all transform 0.2s;
-  transition: all transform 0.2s;
+  -webkit-transition: all transform 2s;
+  transition: all transform 2s;
 }
 @media (max-width: 913px) {
   .s-3-2 .baratebi {
@@ -1867,8 +1897,8 @@ footer {
   border-radius: 20px;
   padding: 80px 48px;
   margin: 20px 20px;
-  -webkit-transition: all transform 0.2s;
-  transition: all transform 0.2s;
+  -webkit-transition: all transform 2s;
+  transition: all transform 2s;
 }
 .s-3-3 .baratebi .barati2 {
   background-image: url("../imgs/comedyt.jpeg");
@@ -1890,8 +1920,8 @@ footer {
   border-radius: 20px;
   padding: 80px 48px;
   margin: 20px 20px;
-  -webkit-transition: all transform 0.2s;
-  transition: all transform 0.2s;
+  -webkit-transition: all transform 2s;
+  transition: all transform 2s;
 }
 .s-3-3 .baratebi .barati3 {
   background-image: url("../imgs/romancet.jpeg");
@@ -1913,8 +1943,8 @@ footer {
   border-radius: 20px;
   padding: 80px 48px;
   margin: 20px 20px;
-  -webkit-transition: all transform 0.2s;
-  transition: all transform 0.2s;
+  -webkit-transition: all transform 2s;
+  transition: all transform 2s;
 }
 .s-3-3 .baratebi .barati4 {
   background-image: url("../imgs/horrort.jpeg");
@@ -1936,8 +1966,8 @@ footer {
   border-radius: 20px;
   padding: 80px 48px;
   margin: 20px 20px;
-  -webkit-transition: all transform 0.2s;
-  transition: all transform 0.2s;
+  -webkit-transition: all transform 2s;
+  transition: all transform 2s;
 }
 .s-3-3 .baratebi .barati5 {
   background-image: url("../imgs/thrillert.png");
@@ -1959,8 +1989,8 @@ footer {
   border-radius: 20px;
   padding: 80px 48px;
   margin: 20px 20px;
-  -webkit-transition: all transform 0.2s;
-  transition: all transform 0.2s;
+  -webkit-transition: all transform 2s;
+  transition: all transform 2s;
 }
 .s-3-3 .baratebi .barati6 {
   background-image: url("../imgs/adventuret.jpeg");
@@ -1982,8 +2012,8 @@ footer {
   border-radius: 20px;
   padding: 80px 48px;
   margin: 20px 20px;
-  -webkit-transition: all transform 0.2s;
-  transition: all transform 0.2s;
+  -webkit-transition: all transform 2s;
+  transition: all transform 2s;
 }
 @media (max-width: 913px) {
   .s-3-3 .baratebi h1 {

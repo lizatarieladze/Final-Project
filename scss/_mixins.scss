@@ -51,12 +51,27 @@
     border-radius: 20px;
     padding: 80px 48px;
     margin: 20px 20px;
-    transition: all transform .2s; 
+    transition: all  transform 2s; 
 }
 
 .barati1:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.05); 
 }
+.barati2:hover {
+	transform: scale(1.05); 
+  }
+.barati3:hover {
+	transform: scale(1.05); 
+}
+.barati4:hover {
+	transform: scale(1.05); 
+  }
+.barati5:hover {
+	transform: scale(1.05); 
+  }
+.barati6:hover {
+	transform: scale(1.05); 
+  }
 
 @mixin logo{
 	height: 20px;
