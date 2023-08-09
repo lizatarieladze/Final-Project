@@ -198,7 +198,11 @@
         }
     }
     @media(max-width: 1200px){
-        padding: 10px;
+        padding: 30px;
+        form{
+            max-width: 768px;
+            width: 100%;
+        }
     }
 }
 footer{

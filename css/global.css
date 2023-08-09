@@ -1156,7 +1156,11 @@ footer .form form #submit {
 }
 @media (max-width: 1200px) {
   .s-2-4 {
-    padding: 10px;
+    padding: 30px;
+  }
+  .s-2-4 form {
+    max-width: 768px;
+    width: 100%;
   }
 }
 
