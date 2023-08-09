@@ -4,7 +4,7 @@
     background-color:  white;
     width: 100%;
     z-index: 1;
-    height: 100px;
+    height: 90px;
     .hddiv{
         .damatebiti{
             display: flex;
@@ -68,19 +68,18 @@
                 }
             }
             @media (max-width:480px){
-                .damatebiti{
-                    justify-content: space-between;
-                }
+                padding: 10px;
                 .tbc{
                     width: 130px;
                     padding: 0;
                 }
             }
-        } 
+        }
     }
     @media (max-width:1100px){
         margin: 5px 5px;
         .damatebiti{
+            justify-content:space-between;
             padding: 10px;
             h1{
                 font-size: 29px;

@@ -73,7 +73,7 @@ a {
   background-color: white;
   width: 100%;
   z-index: 1;
-  height: 100px;
+  height: 90px;
 }
 .sticky .hddiv .damatebiti {
   display: -webkit-box;
@@ -143,10 +143,8 @@ a {
   }
 }
 @media (max-width: 480px) {
-  .sticky .hddiv .damatebiti .damatebiti {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+  .sticky .hddiv .damatebiti {
+    padding: 10px;
   }
   .sticky .hddiv .damatebiti .tbc {
     width: 130px;
@@ -158,6 +156,9 @@ a {
     margin: 5px 5px;
   }
   .sticky .damatebiti {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding: 10px;
   }
   .sticky .damatebiti h1 {
