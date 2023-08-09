@@ -97,6 +97,30 @@ a {
           transform: scale(1.05);
 }
 
+.logo:hover {
+  -webkit-transform: scale(1.09);
+      -ms-transform: scale(1.09);
+          transform: scale(1.09);
+}
+
+.logo1:hover {
+  -webkit-transform: scale(1.09);
+      -ms-transform: scale(1.09);
+          transform: scale(1.09);
+}
+
+.logo2:hover {
+  -webkit-transform: scale(1.09);
+      -ms-transform: scale(1.09);
+          transform: scale(1.09);
+}
+
+.logo0:hover {
+  -webkit-transform: scale(1.09);
+      -ms-transform: scale(1.09);
+          transform: scale(1.09);
+}
+
 .sticky {
   position: sticky;
   top: 0;
@@ -419,11 +443,15 @@ a {
   height: 20px;
   width: 50px;
   vertical-align: middle;
+  -webkit-transition: all transform 2s;
+  transition: all transform 2s;
 }
 .s-2 .box2 .div2 ul .logo0 {
   height: 20px;
   width: 50px;
   vertical-align: middle;
+  -webkit-transition: all transform 2s;
+  transition: all transform 2s;
 }
 .s-2 .box2 .div2 ul .logo1 {
   height: 30px;
@@ -694,6 +722,13 @@ a {
   max-height: 421px;
   height: 100%;
   border-radius: 15px;
+  -webkit-transition: all transform 2s;
+  transition: all transform 2s;
+}
+.s-4 .cardsbox .card1 .tint:hover {
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
 }
 @media (max-width: 1300px) {
   .s-4 .cardsbox .card1 {
@@ -1303,6 +1338,13 @@ footer {
   border-radius: 30px;
   width: 100%;
   margin: 27px auto;
+  -webkit-transition: all transform 2s;
+  transition: all transform 2s;
+}
+.s-1-4 .form img:hover {
+  -webkit-transform: scale(1.04);
+      -ms-transform: scale(1.04);
+          transform: scale(1.04);
 }
 @media (max-width: 800px) {
   .s-1-4 {
@@ -1544,6 +1586,13 @@ footer {
   border-radius: 30px;
   width: 100%;
   margin: 27px auto;
+  -webkit-transition: all transform 2s;
+  transition: all transform 2s;
+}
+.form3-1 img:hover {
+  -webkit-transform: scale(1.04);
+      -ms-transform: scale(1.04);
+          transform: scale(1.04);
 }
 
 .s-3-2 {

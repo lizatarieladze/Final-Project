@@ -75,6 +75,10 @@
             border-radius: 30px;
             width: 100%;
             margin: 27px auto;
+            transition: all  transform 2s; 
+        }
+        img:hover{
+            transform: scale(1.04); 
         }
     }
     @media(max-width: 800px){

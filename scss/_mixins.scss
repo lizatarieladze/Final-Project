@@ -77,4 +77,17 @@
 	height: 20px;
 	width: 50px;
 	vertical-align: middle;
+	transition: all  transform 2s; 
 }
+.logo:hover {
+	transform: scale(1.09); 
+  }
+  .logo1:hover {
+	transform: scale(1.09); 
+  }
+  .logo2:hover {
+	transform: scale(1.09); 
+  }
+  .logo0:hover {
+	transform: scale(1.09); 
+  }
