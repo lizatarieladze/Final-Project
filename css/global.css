@@ -1405,12 +1405,20 @@ footer {
   font-weight: 400;
   line-height: 160%; /* 25.6px */
 }
+@media (max-width: 890px) {
+  .s-2-2 .advice .div1 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 @media (max-width: 800px) {
   .s-2-2 {
     padding: 20px 20px;
   }
   .s-2-2 h1 {
     font-size: 29px;
+    margin: 0 auto;
   }
 }
 
