@@ -1,6 +1,91 @@
 .meore{
     background: var(--off-white, #EBF0F9);
     // height: 600px;
+    header{
+        .hddiv{
+            .damatebiti{
+                display: flex;
+                justify-content: space-between;
+                padding: 17px 70px;
+                width: 100%;
+                .tbc{
+                    max-width: 180px;
+                    width: 100%;
+                }
+                nav{
+                    vertical-align: center;
+                    margin-top: 20px;
+                    ul{
+                        display: flex;
+                        li{
+                            margin-right: 40px;
+                            a{
+                                color: grey;
+                            }
+                            .active{
+                                color: #0B0706;
+                            }
+                            a:hover{
+                            color: rgb(1, 56, 1);
+                        }
+                        }
+                    }
+                }
+                .dropdown{
+                    padding-right: 2px;
+                    .btn{
+                        border: none;
+                        color: rgb(4, 52, 4);
+                    }
+                    .dropdown-menu{
+                        padding: 20px;
+                        background-color: #EFF7F2;
+                        a{
+                            color: rgb(61, 61, 61);
+                            
+                        }
+                    }
+                }
+                .fa-bars{
+                    display: none;
+                }
+                .dropdown{
+                    display: none;
+                }
+                @media (max-width:1110px){
+                    nav{
+                        display: none;
+                    }
+                    .fa-bars{
+                        display: inline-block;
+                        margin-top: 20px;
+                    }
+                    .dropdown{
+                        display: inline-block;
+                    }
+                }
+                @media (max-width:480px){
+                    padding: 10px;
+                    .tbc{
+                        width: 130px;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+        @media (max-width:1100px){
+            margin: 5px 5px;
+            .damatebiti{
+                justify-content:space-between;
+                padding: 10px;
+                h1{
+                    font-size: 29px;
+                    margin-top: 16px;
+                }
+            }
+        }
+    }
+    
     .s-1-4{
         display: flex;
         justify-content: space-between;

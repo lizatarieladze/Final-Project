@@ -972,6 +972,97 @@ footer .form form #submit {
 .meore {
   background: var(--off-white, #EBF0F9);
 }
+.meore header .hddiv .damatebiti {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 17px 70px;
+  width: 100%;
+}
+.meore header .hddiv .damatebiti .tbc {
+  max-width: 180px;
+  width: 100%;
+}
+.meore header .hddiv .damatebiti nav {
+  vertical-align: center;
+  margin-top: 20px;
+}
+.meore header .hddiv .damatebiti nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.meore header .hddiv .damatebiti nav ul li {
+  margin-right: 40px;
+}
+.meore header .hddiv .damatebiti nav ul li a {
+  color: grey;
+}
+.meore header .hddiv .damatebiti nav ul li .active {
+  color: #0B0706;
+}
+.meore header .hddiv .damatebiti nav ul li a:hover {
+  color: rgb(1, 56, 1);
+}
+.meore header .hddiv .damatebiti .dropdown {
+  padding-right: 2px;
+}
+.meore header .hddiv .damatebiti .dropdown .btn {
+  border: none;
+  color: rgb(4, 52, 4);
+}
+.meore header .hddiv .damatebiti .dropdown .dropdown-menu {
+  padding: 20px;
+  background-color: #EFF7F2;
+}
+.meore header .hddiv .damatebiti .dropdown .dropdown-menu a {
+  color: rgb(61, 61, 61);
+}
+.meore header .hddiv .damatebiti .fa-bars {
+  display: none;
+}
+.meore header .hddiv .damatebiti .dropdown {
+  display: none;
+}
+@media (max-width: 1110px) {
+  .meore header .hddiv .damatebiti nav {
+    display: none;
+  }
+  .meore header .hddiv .damatebiti .fa-bars {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  .meore header .hddiv .damatebiti .dropdown {
+    display: inline-block;
+  }
+}
+@media (max-width: 480px) {
+  .meore header .hddiv .damatebiti {
+    padding: 10px;
+  }
+  .meore header .hddiv .damatebiti .tbc {
+    width: 130px;
+    padding: 0;
+  }
+}
+@media (max-width: 1100px) {
+  .meore header {
+    margin: 5px 5px;
+  }
+  .meore header .damatebiti {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 10px;
+  }
+  .meore header .damatebiti h1 {
+    font-size: 29px;
+    margin-top: 16px;
+  }
+}
 .meore .s-1-4 {
   display: -webkit-box;
   display: -ms-flexbox;
